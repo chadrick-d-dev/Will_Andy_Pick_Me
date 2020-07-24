@@ -10,3 +10,90 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-section {
+  height: 139px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #2B4E80;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.parent {
+  height: 405px;
+  width: 835px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-box {
+  height: 405px;
+  width: 480px;
+  display: grid;
+  grid-template-rows: 36fr 84fr 19fr;
+  background: #E6ECF4;
+}
+
+.question-box {
+  grid-row: 1 / 2;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-input {
+  display: flex;
+  justify-content: center;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  color: #2B4E80;
+}
+
+.get-answer-button {
+  margin-right: 4.5%;
+  margin-left: 4.5%;
+  background: #2B4E80;
+  color: #FFFFFF;
+}
+
+.eight-ball-box {
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.eight-ball-img {
+  height: 124px;
+}
+
+.clear-box {
+  grid-row: 3 / 4;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.clear-button {
+  margin-right: 4.5%;
+  margin-bottom: 4.5%;
+}
+
+.woody-box {
+  height: 405px;
+  margin-left: 71.5px;
+}
+
+.woody-img {
+  height: 405px;
+}
